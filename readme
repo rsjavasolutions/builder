@@ -1,0 +1,8 @@
+Wzorzec projektowy builder - budowniczy.
+Jest on wzorcem kreacyjnym, który pozwala oddzielić proces tworzenia obiektu od jego reprezentacji.
+
+Dzięki builderowi nie musimy pamiętać kolejności wprowadzania pól przy tworzneiu obiektu,
+nie musimy uzupełniać wszystkich pól, bedą zerami lub NULL
+
+Przy tradycyjnym tworzeniu obiektu przez konstruktor kiedy nie chcemy uzupełniac wartości jakiegoś pola to wpisujemuy null (amatorka)
+lub należy nadpisac konstruktor. Dzięki builderowi proces jest elastyczniejszy.
